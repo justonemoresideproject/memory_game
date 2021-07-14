@@ -68,7 +68,7 @@ function resetGame(){
 }
 
 let prev = null;
-let correct = 4;
+let correct = 0;
 function handleCardClick(e){
   // you can use event.target to see which element was clicked
   console.log("you just clicked", event.target);
